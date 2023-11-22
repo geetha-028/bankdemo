@@ -14,9 +14,9 @@ public class BankdemoApplication {
 	public static void main(String[] args) {
 		ConfigurableApplicationContext context = SpringApplication.run(BankdemoApplication.class, args);
 		
-		StudentServiceImpl impl = context.getBean(StudentServiceImpl.class);
-		System.out.println("impl name : "+impl.name);
-		System.out.println("impl portNumber : "+impl.portNumber);
+//		StudentServiceImpl impl = context.getBean(StudentServiceImpl.class);
+//		System.out.println("impl name : "+impl.name);
+//		System.out.println("impl portNumber : "+impl.portNumber);
 	}
 
 }
