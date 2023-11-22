@@ -34,7 +34,7 @@ public class StudentCtrl {
 	
 	@GetMapping(value = "/student")
 	public ResponseEntity<List<Student>> getAllStudents() {
-		System.out.println("class name : "+service.getClass().getName());
+//		System.out.println("class name : "+service.getClass().getName());
 		List<Student> list = service.getAllStudents();
 		return new ResponseEntity<>(list, HttpStatus.OK);
 	}
